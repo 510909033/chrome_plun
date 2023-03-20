@@ -10,5 +10,13 @@
     "action": {
       "default_popup": "popup.html"
     },
-    "options_page": "options.html"
+    "options_page": "options.html",
+    "content_scripts": 
+    [
+        {
+            "matches":["https://*/*"],
+            "js":["jquery.min.js", "demo_jquery.js"],
+            "run_at": "document_end"
+        }
+    ]
   }

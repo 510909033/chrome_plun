@@ -34,3 +34,6 @@ function setPageBackgroundColor() {
 //   importJs.setAttribute("src", "https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"); //给script标签增加src属性， url地址为cdn公共库里的
 //   document.getElementsByTagName("head")[0].appendChild(importJs);
 //   console.log("jquery load...")
+
+alert("popup.js");
+alert($("body").html());

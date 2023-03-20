@@ -12,3 +12,5 @@ chrome.runtime.onInstalled.addListener(() => {
   
 
 });
+
+alert("background.js");

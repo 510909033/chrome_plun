@@ -68,3 +68,5 @@ function handleButtonClick(event) {
 // 执行
 // 批量添加按钮
 setColorBtns(colorList);
+
+alert('options.js');
